@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+    /*background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../wallpaper7.png);
+    height: 100vh;
+    background-size:cover;
+    background: position 50%;;*/
+
+
+body{
+    background-color: rgb(2,0,3);
+    background-image: url('donate.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 30% 40%;
+    background-position: 15% 40%;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border: 1pv solid #fff;
+    transition: 0.6s ease;
+    border-radius: 20px;
+}
+ul li a:hover {
+  background-color: #fff;
+  color:lightblue
+}
+
+
+.logo img{
+    float:left;
+    width: 80px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.button {
+  position: absolute;
+  height: 10%;
+  width: 10%;
+  top: 75%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+
+}
+.title{
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    transform: translate(-78%,-50%);
+}
+.title p{
+    color:rgb(255, 253, 250);
+    font-size: 20px;
+    font-style: (255, 253, 250);
+    font-weight: 800;
+}
+.title2{
+    position: absolute;
+    top: 53%;
+    left: 82%;
+    transform: translate(-50%,-50%);
+}
+.title2 p{
+    color: rgb(255, 253, 250);
+    font-size: 20px;
+    font-style:  (255, 253, 250);
+    font-weight: 800;
+}
+ul li.active a{
+    background-color: #fff;
+    color:crimson;
+}
